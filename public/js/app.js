@@ -33,7 +33,7 @@ function appendchild(data, id) {
         }else{
             li.classList.add('no-child');
         }
-        li.innerHTML= "+"+element.name;
+        li.innerHTML= element.name;
         li.setAttribute('data-id' , element.entry_id);
         li.setAttribute('id' , "clickable_task" + element.entry_id);
     });
